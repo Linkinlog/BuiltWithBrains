@@ -78,6 +78,12 @@ body {
     margin-top: 25vh;
 }
 
+.secondp {
+    width: 50vw;
+    margin-left: 10vw;
+    margin-bottom: 3vh;
+}
+
 #main > div:nth-child(1) > div > div > a {
     margin-left: 20vw;
 }
