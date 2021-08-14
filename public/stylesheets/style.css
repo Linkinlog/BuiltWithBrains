@@ -77,6 +77,6 @@ body {
     height: 100vh;
 }
 
-#navbar > div > button.collapsed {
+#navbar > div > button.navbar-toggler {
     background-color: grey;
 }
