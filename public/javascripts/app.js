@@ -11,5 +11,5 @@ window.onscroll = function (){
 };
 
 navButton.addEventListener('click', () => {
-    navbar.classList.toggle('bg-main')
+    !navbar.classList.contains('bg-main') ? navbar.classList.add('bg-main') : navbar.classList.remove('bg-main')
 })
