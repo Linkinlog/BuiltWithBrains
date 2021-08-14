@@ -1,6 +1,5 @@
 const navbar = document.getElementById('navbar');
 const navButton = document.querySelector("#navBtn");
-console.log(navbar)
 window.onscroll = function (){
     if (window.pageYOffset >= 75){
         navbar.classList.add("bg-main");
