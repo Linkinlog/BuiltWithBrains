@@ -7,7 +7,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     height: 100vh;
-    word-wrap: break-word !important;
+    word-wrap: break-word;
 }
 
 .bg-main{
@@ -41,8 +41,6 @@ body {
     color: white;
     background-color: var(--main-bg-color);
     border-color: var(--main-dark-color);
-    margin-left: 40%;
-    margin-right: 25%;
     width: 30%;
 }
 
@@ -54,14 +52,16 @@ body {
     background-color: #e85d04;
 }
 
-.landing-img{
+.landing-main{
     position: relative;
-    top: -65px;
-    background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 90vh;
+    top: -80px;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .tag-line{
@@ -75,4 +75,8 @@ body {
     background-size: cover;
     background-position: center center;
     height: 100vh;
+}
+
+.navBarShown {
+    background-color: red;
 }
