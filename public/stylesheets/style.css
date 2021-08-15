@@ -135,14 +135,14 @@ body {
     box-sizing: border-box;
   }
 #spinner{
-    height: 100vh;
-    width: 100vw;
-    margin-top: 20rem;
-    margin-left: 50rem;
+  height: 100vh;
+  width: 100%; 
+  margin-top: 10%
 }
 
+
 .spinner-box {
-    width: 300px;
+    width: 100%;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -158,7 +158,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #fb5b53;
-    animation: configure-clockwise 3s ease-in-out 0s infinite alternate;
+    animation: configure-clockwise 2s ease-out 0s infinite alternate;
   }
   
   .configure-border-2 {
@@ -171,7 +171,7 @@ body {
     align-items: center;
     background: rgb(63,249,220);
     transform: rotate(45deg);
-    animation: configure-xclockwise 3s ease-in-out 0s infinite alternate;
+    animation: configure-xclockwise 2s ease-in-out 0s infinite alternate;
   }
   
   .configure-core {
@@ -205,7 +205,7 @@ body {
 .tag-line{
     font-size: 4rem;
     color: white;
-    width: 100vw;
+    width: 100%;
     margin-left: 10vw;
     margin-top: 25vh;
 }
