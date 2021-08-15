@@ -48,7 +48,11 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/coaches', (req,res) => {
-  res.render('coaches', {coaches, loading})
+  res.render('coaches', {coaches, loading});
+})
+
+router.get('/training', (req, res) => {
+  res.render('training');
 })
 
 module.exports = router;
