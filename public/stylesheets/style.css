@@ -211,9 +211,8 @@ body {
 }
 
 .secondp {
-    width: 50vw;
-    margin-left: 10vw;
-    margin-bottom: 3vh;
+    width: 50%;
+    margin-left: 25%;
 }
 
 #main > div:nth-child(1) > div > div > a {
