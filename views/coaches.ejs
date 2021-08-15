@@ -25,8 +25,19 @@
             </button>
         </div>
     </div>
-    <div class="row ">
-        <div class="col-md">
+    <div class="container">
+        <div class="row row-cols-md-3 g-5 mt-5">
+            <% for (coach of coaches ){ %> 
+                <div class="col">
+                    <div class="card text-center">
+                        <img src="<%= coach.URL %>" class="card-img-top rounded" alt="<%= coach.Coach %> ">
+                        <div class="card-body">
+                            <p class="card-text"><%= coach.Coach %> is a specialist in <%= coach.Specialty %>, and they have been with us for over <%= coach.Years %> years we look forward to having you meet us!</p>
+                            <a href="#" class="btn btn-primary">Schedule with <%= coach.Coach %> </a>
+                        </div>
+                    </div>
+                </div>
+            <% } %> 
         </div>
     </div>
 </div>
