@@ -41,7 +41,7 @@ body {
     color: white;
     background-color: var(--main-bg-color);
     border-color: var(--main-dark-color);
-    width: 30%;
+    width: 50%;
 }
 
 #log-in-btn{
@@ -205,7 +205,7 @@ body {
 .tag-line{
     font-size: 4rem;
     color: white;
-    width: 100vw;
+    /* width: 100%; */
     margin-left: 10vw;
     margin-top: 25vh;
 }
