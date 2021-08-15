@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
+let loading = true
+
 const coaches = [
   {
     Coach : 'Ross',
@@ -46,7 +48,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/coaches', (req,res) => {
-  res.render('coaches', {coaches})
+  res.render('coaches', {coaches, loading})
 })
 
 module.exports = router;

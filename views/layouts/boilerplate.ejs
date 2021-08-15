@@ -11,13 +11,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    
 </head>
 <body>
+    
+    <div id="spinner">
+        <div class="spinner-box">
+            <div class="configure-border-1">  
+            <div class="configure-core"></div>
+            </div>  
+            <div class="configure-border-2">
+            <div class="configure-core"></div>
+            </div> 
+        </div>
+    </div>
     <section>
         <%- include('navbar') %> 
         <%- body %> 
     </section>
+    <script src="/javascripts/spinner.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <script src="/javascripts/app.js"></script>
+    
 </body>
 </html>
