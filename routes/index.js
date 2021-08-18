@@ -4,6 +4,18 @@ var router = express.Router();
 let loading = true
 
 const coaches = [
+  // {
+  //   Coach : "Jason",
+  //   URL : "https://i.imgur.com/0lhav8I.jpeg",
+  //   Specialty : "TBD",
+  //   Years : "99"
+  // },
+  // {
+  //   Coach : "Ally",
+  //   URL : "https://imgur.com/a/Z8rT8a6",
+  //   Specialty : "TBD",
+  //   Years : "99"
+  // },
   {
     Coach : 'Ross',
     URL : 'https://images.unsplash.com/photo-1544972917-3529b113a469?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1',
